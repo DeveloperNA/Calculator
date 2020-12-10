@@ -1,0 +1,26 @@
+To understand Networks ,
+ think of our college lab computers in which each has a unique file (videos, pictures, apps) ..
+ 
+ so, how are we going to get those files in our devices?
+
+ to accomplish that we need to make our lab computers act as servers to process the file requests which we are going to make.
+ 
+ so, how those servers is going to transfer files to our devices in our home?
+
+ those servers are connected to a super fastest fibre optical cable which is layed underground and under the seas from those servers.
+
+ so, how it is going to reach to my specific device alone ?
+	
+ Each device has unique IP address so on reaching the server with our device IP address , the server reacts only to those address that recieves.
+
+ But how do we know the IP address of those servers (lab computers) ?
+
+ Here DNS comes to action,in which the browser finds the IP address of respective Domain name that we search on our browser. DNS is like a telephone book. 
+
+ What if, if i need my phones to reach the file?
+
+ Nothing, server simply sends file to the reciever's nearest cell phones towers via fibre optic and those cell towers transfers wirelessly to our device using mobile data.
+
+ 
+ 
+ 
