@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QKeyEvent>
 #include "inputscreen.h"
 #include <QLabel>
 
@@ -59,5 +60,7 @@ private slots:
 private:
     Ui::MainWindow *ui;
     InputScreen *screenText;
+
+    void keyPressEvent(QKeyEvent *event);
 };
 #endif // MAINWINDOW_H

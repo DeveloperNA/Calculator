@@ -1,5 +1,5 @@
-#include "inputscreen.h"
-#include "utils.h"
+#include "header/gui/inputscreen.h"
+#include "header/utils/utils.h"
 
 InputScreen::InputScreen(QLabel *label, QLabel *resultLabel)
 {

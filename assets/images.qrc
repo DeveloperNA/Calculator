@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/calculator.png</file>
+        <file>images/backspace.png</file>
+    </qresource>
+</RCC>

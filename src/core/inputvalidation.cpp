@@ -1,5 +1,5 @@
-#include "utils.cpp"
-#include "inputvalidation.h"
+#include "header/utils/utils.h"
+#include "header/core/inputvalidation.h"
 #include <QString>
 #include <QDebug>
 
@@ -81,6 +81,10 @@ bool InputValidation::isDotValid(QChar lastPrev, QString exp)
 {
     qDebug() << "In dot Valid";
     int i = exp.size()-1;
+
+    if(isOp(lastPrev)){
+        return false;
+    }
 
     while(i>=0 && !isOp(exp[i])){
         if(isDot(exp[i])){

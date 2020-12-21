@@ -1,5 +1,5 @@
-#include "calculatorservice.h"
-#include "utils.h"
+#include "header/core/calculatorservice.h"
+#include "header/utils/utils.h"
 #include <QStack>
 #include <QString>
 #include <QDebug>

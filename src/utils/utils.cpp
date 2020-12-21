@@ -1,5 +1,5 @@
-#include "utils.h"
-
+#include "header/utils/utils.h"
+#include <QChar>
 int isZero(QChar ch){
     if(ch == 48){
         return 1;

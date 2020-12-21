@@ -2,8 +2,8 @@
 #define CALCULATOR_H
 
 #include<QString>
-#include "calculatorservice.h"
-#include "inputvalidation.h"
+#include "header/core/calculatorservice.h"
+#include "header/core/inputvalidation.h"
 class Calculator
 {
 public:

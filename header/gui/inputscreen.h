@@ -1,7 +1,7 @@
 #ifndef INPUTSCREEN_H
 #define INPUTSCREEN_H
 
-#include "calculator.h"
+#include "header/core/calculator.h"
 #include <QLabel>
 #include <QPushButton>
 

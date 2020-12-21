@@ -1,5 +1,5 @@
-#include "utils.h"
-#include "calculator.h"
+#include "header/utils/utils.h"
+#include "header/core/calculator.h"
 #include <QDebug>
 #include <QString>
 #include <iostream>
@@ -19,8 +19,10 @@ void Calculator::setInputExp(QString data)
     else
         lastPrev = '0';
 
-    inputExp = (isNum(digit) || isZero(digit))? val.validateTrailZeros(digit, lastPrev, inputExp):
-                                                val.validateOperators(digit, lastPrev, inputExp);
+    inputExp = (isNum(digit) || isZero(digit))?
+                val.validateTrailZeros(digit, lastPrev, inputExp):
+                 val.validateOperators(digit, lastPrev, inputExp);
+
     if(!inputExp.isEmpty())
         last = inputExp[(inputExp.size()-1)];
     else
