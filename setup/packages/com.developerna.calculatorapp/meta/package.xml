@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+	<DisplayName>CalculatorApp</DisplayName>
+	<Description>It's fine. It is going to install CalculatorApp on your machine. So cool right?!</Description>
+	<Version>1.0.0</Version>
+	<ReleaseDate>2020-12-20</ReleaseDate>
+	<Licenses>
+		<License name="DeveloperNA Public License Agreement" file="license.txt"/>
+	</Licenses>
+	<Default>true</Default>
+</Package>
