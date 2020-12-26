@@ -3,16 +3,16 @@ A simple Calculator developed for windows platform. It was fully written using Q
 
 <img src="/output.gif" width="320" alt="output.gif">
 
-###Highlights
+### Highlights
 
 * Calculator can be used with your most convenient input device<u>(Keyboard or Mouse)</u>.
 * No need to press/click equal all the time to generate the result. 
 * It can handle the entire expression without any complication.
 <br>
 
-###How to Deploy
+### How to Deploy
 
-####windeployqt
+#### windeployqt
 To deploy the application in windows, we are needed to install the latest Qt Framework in https://www.qt.io/download. Make sure the windeployqt is available in bin folder of your installed Qt folder.
 
 ```cmd
@@ -24,7 +24,7 @@ The above command will put dependencies together.
 
  \- Execute this command in the location where the application needs to be deployed.
 
-####QtInstallerFramework
+#### QtInstallerFramework
 
 Download the available latest Qt Installer Framework available in https://download.qt.io/official_releases/qt-installer-framework/.
 
